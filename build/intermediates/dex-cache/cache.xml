@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\ros\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\ros\Documents\applisAndroid\khpApp060116\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0-af58cbcbd5a2791f2e013f5c7a0c10fe1426b99b.jar" />
+    </item>
+    <item
+        jar="C:\Users\ros\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.3.0\bc535105332645408ef5f1380215cc954b842178\bolts-applinks-1.3.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bc535105332645408ef5f1380215cc954b842178">
+        <dex dex="C:\Users\ros\Documents\applisAndroid\androidKhp101115-1\app\build\intermediates\pre-dexed\debug\bolts-applinks-1.3.0-83155f54e6c9efd16a336f9ff8886f8535a2b3f2.jar" />
+    </item>
+    <item
+        jar="C:\Users\ros\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.3.0\8a62fd16fcc1c06f284fc98e6cbded2a5af1dd4c\bolts-tasks-1.3.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8a62fd16fcc1c06f284fc98e6cbded2a5af1dd4c">
+        <dex dex="C:\Users\ros\Documents\applisAndroid\androidKhp101115-1\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.3.0-07aa06ee889073bbc66d63d56de2d73cc90324e6.jar" />
+    </item>
+    <item
+        jar="C:\Users\ros\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Users\ros\Documents\applisAndroid\khpApp060116\app\build\intermediates\pre-dexed\debug\bolts-applinks-1.4.0-f3c187c0e63df0ce4fd265f67f12c378f383ce81.jar" />
+    </item>
+    <item
+        jar="C:\Users\ros\.gradle\caches\modules-2\files-2.1\com.parse\parse-android\1.12.0\34ca297c889cd2023074946c7097d96b30b20891\parse-android-1.12.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="34ca297c889cd2023074946c7097d96b30b20891">
+        <dex dex="C:\Users\ros\Documents\applisAndroid\khpApp060116\app\build\intermediates\pre-dexed\debug\parse-android-1.12.0-46e6c7d574402a68d0890140ebaedb10e131e47c.jar" />
+    </item>
+    <item
+        jar="C:\Users\ros\.gradle\caches\modules-2\files-2.1\com.parse\parse-android\1.11.0\6592129dec2caa8791d322c7e4b6b7a30e8eadae\parse-android-1.11.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6592129dec2caa8791d322c7e4b6b7a30e8eadae">
+        <dex dex="C:\Users\ros\Documents\applisAndroid\androidKhp101115-1\app\build\intermediates\pre-dexed\debug\parse-android-1.11.0-7e3f1bbfbe2964115b6eefe1dc618d6ddd09518d.jar" />
+    </item>
+
+</items>

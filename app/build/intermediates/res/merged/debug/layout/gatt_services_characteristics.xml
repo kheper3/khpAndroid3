@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#030000"
+    android:textAlignment="center"
+
+    android:editable="false"
+    android:keepScreenOn="true"
+    android:orientation="vertical"
+    android:id="@+id/screen">
+
+
+
+
+    <Gallery
+        android:layout_width="340dp"
+        android:layout_height="340dp"
+        android:id="@+id/gallery"
+        android:background="@drawable/cot6"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:id="@+id/rpm"
+        android:layout_marginStart="10dp"
+
+        android:text="00000 rpm"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/gallery"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="152dp"
+        android:textSize="28dp" />
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:id="@+id/speed"
+        android:layout_below="@+id/rpm"
+        android:layout_alignStart="@+id/rpm"
+        android:layout_marginTop="10dp"
+        android:text="000 km/h"
+        android:textColor="#ffffff"
+        android:textSize="28dp" />
+
+    <ImageView
+        android:layout_width="800dp"
+        android:layout_height="800dp"
+        android:id="@+id/swipeView"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/troisBut"
+        android:background="@drawable/troisx"
+        android:layout_below="@+id/gallery"
+        android:layout_alignEnd="@+id/gallery"
+        android:onClick="troisClick"
+        android:layout_marginRight="30dp" />
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/deuxBut"
+        android:layout_alignBottom="@+id/troisBut"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/deuxx"
+        android:onClick="deuxClick" />
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/unBut"
+        android:layout_alignBottom="@+id/deuxBut"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/unx"
+        android:layout_marginLeft="40dp"
+        android:onClick="unClick" />
+
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="35dp"
+        android:id="@+id/retard"
+        android:text="00000"
+        android:textColor="#fefefe"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:layout_alignTop="@+id/imageButton2"
+        android:layout_centerHorizontal="true"
+        android:background="#030303" />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageButton"
+        android:background="@drawable/plusx"
+        android:layout_marginLeft="00dp"
+        android:onClick="plusClick"
+        android:layout_alignTop="@+id/retard"
+        android:layout_toEndOf="@+id/unBut" />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageButton2"
+        android:background="@drawable/moinsx"
+        android:layout_marginRight="10dp"
+        android:onClick="moinsClick"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/troisBut" />
+
+
+
+    <ImageView
+        android:layout_width="340dp"
+        android:layout_height="340dp"
+        android:id="@+id/a4View"
+        android:src="@drawable/aig0"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:layout_marginTop="42dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:id="@+id/noCDisp"
+        android:text="00"
+        android:textColor="#fefefe"
+        android:textSize="20dp"
+        android:layout_above="@+id/imageButton"
+        android:layout_alignStart="@+id/a4View" />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/stopBut"
+        android:background="@drawable/resetx"
+        android:onClick="stopClick"
+        android:layout_above="@+id/label"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:id="@+id/label"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:layout_alignTop="@+id/noCDisp"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout><!-- From: file:/C:/Users/ros/Documents/applisAndroid/khpAndroid3/app/src/main/res/layout/gatt_services_characteristics.xml -->
